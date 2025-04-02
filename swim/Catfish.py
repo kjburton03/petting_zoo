@@ -7,4 +7,7 @@ class Catfish:
         self.date_added = date.today()
         self.swims = True
         
-kimberlina = Catfish("kimberlina", "one of a kind bb")
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
+
+
