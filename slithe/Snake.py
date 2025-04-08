@@ -8,4 +8,4 @@ class Snake:
         self.date_added = date.today()
         
 smatthew = Snake("smatthew", "slimey")
-samanda = Snake("samanda", "two faced serpent")
+samanda = Snake("samanda", "two faced serpent") 
